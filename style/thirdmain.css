@@ -2,6 +2,7 @@
     height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
 }
 .third_main_div{

@@ -1,4 +1,48 @@
 .fourth_main{
-    border: 1px solid;
-    height: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fourth_main_div{
+    width: 1300px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #3B82F6;
+    padding: 20px 0 20px 100px;
+    position: relative;
+
+}
+
+.fourth_main_div h2 {
+    width: 600px;
+    color: white;
+}
+.fourth_main_div p{
+    width: 600px;
+    color: white;
+    font-size: 15px;
+
+}
+.fourth_main_signUp_btn{
+    position: absolute;
+    border-radius: 7px;
+    padding: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3B82F6;
+    border: 1px solid white;
+    color: white;
+    right: 100px;
+    top: 35px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.fourth_main_signUp_btn:hover{
+    background-color: #83aae8;
 }
