@@ -1,0 +1,30 @@
+.third_main{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.third_main_div{
+    height: 400px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.third_main_div p{
+    height: 300px;
+    width: 1000px;
+    font-weight:100;
+    font-style: italic;
+    font-size: 50px;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 60px;
+    bottom: 80px;
+    right: 10px;
+}
