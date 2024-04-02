@@ -1,0 +1,55 @@
+.first_main{
+    height: 695px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.firstSection{
+    height: 695px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.firstDiv_firstMain{
+    height: 500px;
+}
+
+.firstDiv_firstMain h1{
+    font-size: 65px;
+    font-weight: bolder;
+    line-height: 75px;
+    letter-spacing: -1px;
+    color: white;
+}
+.firstDiv_firstMain p{
+    width: 600px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.signUp_btn{
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    background-color: #3B82F6;
+    
+}
+
+.placeHolder_image{
+    height: 350px;
+    background-color: #6D747D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

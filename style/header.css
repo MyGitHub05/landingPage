@@ -1,0 +1,45 @@
+header{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.header_component_div{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.logo_div{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav, nav ul{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+nav ul li a, nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+nav ul li a:hover{
+    background-color: #598dd641;
+}
