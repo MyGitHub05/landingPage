@@ -1,0 +1,17 @@
+footer{
+    border: 1px solid;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+footer p:hover{
+    text-decoration: underline;
+}
