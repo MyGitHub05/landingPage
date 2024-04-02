@@ -43,7 +43,11 @@
     border-radius: 8px;
     color: white;
     background-color: #3B82F6;
+    transition: 0.2s ease-in-out;
     
+}
+.signUp_btn:hover{
+    background-color: #83aae8;
 }
 
 .placeHolder_image{
@@ -52,4 +56,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.placeHolder_image:hover{
+    background-color: #9faab9;
 }
